@@ -1,6 +1,6 @@
 # Auth0 - GitHub Source Control Integration
 
-Unused features such as custom database tables have been removed.  The original repo is located: https://github.com/auth0-samples/github-source-control-integration
+The original repo is located: https://github.com/auth0-samples/github-source-control-integration
 
 Under [Extensions](https://manage.auth0.com/#/extensions) you'll find the GitHub Deploy extension which allows you to manage your Datbase Connections and Rules in a GitHub repository.
 
