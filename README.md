@@ -1,4 +1,6 @@
-# GitHub Source Control Integration
+# Auth0 - GitHub Source Control Integration
+
+Unused features such as custom database tables have been removed.  The original repo is located: https://github.com/auth0-samples/github-source-control-integration
 
 Under [Extensions](https://manage.auth0.com/#/extensions) you'll find the GitHub Deploy extension which allows you to manage your Datbase Connections and Rules in a GitHub repository.
 
@@ -13,23 +15,6 @@ guardian_multifactor
 login
 password_reset
 ```
-
-## Deploying Database Connection Scripts
-
-For Database Connections you create a directory under `database-connections` which contains the name of your Database Connection (in exactly the same way as you named it in Auth0). And under this directory you'll create 1 file for every script you want to use. Only the `login` script is required in a Custom Database connection. If you enabled the migration feature, you'll also need to provide the `get_user` script.
-
-Allowed scripts:
-
-```
-get_user.js
-create.js
-verify.js
-login.js
-change_password.js
-delete.js
-```
-
-An example can be found [here](database-connections/my-custom-db).
 
 ##  Deploying Rules
 
